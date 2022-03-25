@@ -85,7 +85,7 @@
 	<string name="diary_image">选择图片：</string>
     <string name="diary_text">笔记内容：</string>
     <string name="diary_title_init">物理笔记</string>
-    <string name="diary_text_init">在理想情况下...</string>
+    <string name="diary_text_init">在理想情况下…</string>
     
     
     <!--    task Activity  -->
@@ -97,8 +97,30 @@
     <string name="task_choose_time">选着提醒时间：</string>
     <string name="task_choose_time_1">未选着</string>
     <string name="task_choose_time_2">选着时间</string>
-    
-	
+
+
+    <!--    content Description  -->
+    <string name="return_to_Des">返回</string>
+    <string name="add_data_Des">添加数据</string>
+    <string name="home_main_good_Des">好心情</string>
+    <string name="home_main_hard_Des">坏心情</string>
+    <string name="task_finish_Des">任务完成</string>
+    <string name="task_edit_Des">任务编辑</string>
+    <string name="task_delete_Des">任务删除</string>
+    <string name="id_diary_item_Des">笔记</string>
+    <string name="id_home_drawer_item_account_Des">账户</string>
+    <string name="id_home_drawer_Des">图片</string>
+    <string name="home_account_r_Des">今天</string>
+    <string name="home_account_y_Des">今月</string>
+    <string name="home_account_n_Des">今年</string>
+    <string name="id_home_main_list_diary_Des">图片</string>
+    <string name="home_main_diary_Des">笔记</string>
+    <string name="home_main_task_Des">任务</string>
+    <string name="home_main_account_Des">账单</string>
+    <string name="add_Des">添加</string>
+    <string name="main_bg_Des">图片</string>
+    <string name="add_image_Des">添加图片</string>
+
 
 
 
@@ -108,42 +130,42 @@
 
 
     <!--所有心情-->
-    <string name="string_kaixin">开兴</string>
-    <string name="string_chongshi">充实</string>
-    <string name="string_jingxi">惊喜</string>
-    <string name="string_deyi">得意</string>
-    <string name="string_nuanxin">暖心</string>
-    <string name="string_pingjing">平静</string>
-    <string name="string_nanguo">难过</string>
-    <string name="string_fanzao">烦躁</string>
-    <string name="string_mimang">迷茫</string>
-    <string name="string_gudu">孤独</string>
-    <string name="string_shengqi">生气</string>
-    <string name="string_ganga">尴尬</string>
-    <string name="string_weiqu">委屈</string>
-    <string name="string_tianmi">甜蜜</string>
-    <string name="string_mengjing">梦境</string>
-    <string name="string_pibei">疲惫</string>
-    <string name="string_taobi">逃避</string>
-    <string name="string_buzhidao">不知道</string>
+    <string name="string_happy">开心</string>
+    <string name="string_enrich">充实</string>
+    <string name="string_surprise">惊喜</string>
+    <string name="string_complacent">得意</string>
+    <string name="string_heartwarming">暖心</string>
+    <string name="string_calm">平静</string>
+    <string name="string_sad">难过</string>
+    <string name="string_agitate">烦躁</string>
+    <string name="string_puzzle">迷茫</string>
+    <string name="string_lonely">孤独</string>
+    <string name="string_angry">生气</string>
+    <string name="string_awkward">尴尬</string>
+    <string name="string_grievance">委屈</string>
+    <string name="string_sweet">甜蜜</string>
+    <string name="string_dream">梦境</string>
+    <string name="string_tire">疲惫</string>
+    <string name="string_escape">逃避</string>
+    <string name="string_unknown">不知道</string>
     <!--所有心情[]-->
     <string-array name="mood_str">
-        <item>@string/string_kaixin</item>
-        <item>@string/string_chongshi</item>
-        <item>@string/string_jingxi</item>
-        <item>@string/string_deyi</item>
-        <item>@string/string_nuanxin</item>
-        <item>@string/string_pingjing</item>
-        <item>@string/string_nanguo</item>
-        <item>@string/string_fanzao</item>
-        <item>@string/string_mimang</item>
-        <item>@string/string_gudu</item>
-        <item>@string/string_weiqu</item>
-        <item>@string/string_tianmi</item>
-        <item>@string/string_mengjing</item>
-        <item>@string/string_pibei</item>
-        <item>@string/string_taobi</item>
-        <item>@string/string_buzhidao</item>
+        <item>@string/string_happy</item>
+        <item>@string/string_enrich</item>
+        <item>@string/string_surprise</item>
+        <item>@string/string_complacent</item>
+        <item>@string/string_heartwarming</item>
+        <item>@string/string_calm</item>
+        <item>@string/string_sad</item>
+        <item>@string/string_agitate</item>
+        <item>@string/string_puzzle</item>
+        <item>@string/string_lonely</item>
+        <item>@string/string_grievance</item>
+        <item>@string/string_sweet</item>
+        <item>@string/string_dream</item>
+        <item>@string/string_tire</item>
+        <item>@string/string_escape</item>
+        <item>@string/string_unknown</item>
     </string-array>
 
 

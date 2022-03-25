@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
 	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -21,6 +22,7 @@
 			android:gravity="center_vertical">
 
 			<ImageView
+				android:contentDescription="@string/add_data_Des"
 				android:src="@drawable/add_data_icon"
 				android:layout_width="32dp"
 				android:layout_height="32dp"/>
@@ -34,8 +36,7 @@
 				android:layout_height="wrap_content"
 				android:text="@string/home_account"
 				android:layout_marginStart="15dp"
-				android:textSize="16sp"
-				android:layout_marginLeft="15dp" />
+				android:textSize="16sp" />
 
 			<TextView
 				android:id="@+id/id_account_add_data_text_1"
@@ -60,6 +61,8 @@
 			android:textSize="14sp"/>
 
 		<EditText
+			android:inputType="text"
+			android:autofillHints="no"
 			android:id="@+id/id_account_add_data_edit_1"
 			android:layout_width="match_parent"
 			android:layout_height="40dp"
@@ -70,8 +73,9 @@
 			android:textSize="12sp"
 			android:layout_marginTop="10dp"
 			android:maxLines="1"
-			android:paddingLeft="5dp"
-            android:textCursorDrawable="@drawable/edit_cursor"/>
+			android:paddingStart="5dp"
+            android:textCursorDrawable="@drawable/edit_cursor"
+			tools:ignore="RtlSymmetry" />
 
 		<LinearLayout
 			android:layout_marginTop="20dp"
@@ -100,11 +104,13 @@
 				android:textStyle="bold"
 				android:text="@string/account_entrance"
 				android:background="@drawable/add_buttom_bg"
-				android:layout_marginLeft="15dp"/>
+				android:layout_marginStart="15dp"/>
 
 		</LinearLayout>
 
 		<EditText
+			android:inputType="text"
+			android:autofillHints="no"
 			android:id="@+id/id_account_add_data_edit_2"
 			android:layout_width="match_parent"
 			android:layout_height="40dp"
@@ -113,9 +119,10 @@
 			android:textSize="12sp"
 			android:layout_marginTop="10dp"
 			android:maxLines="1"
-			android:paddingLeft="5dp"
+			android:paddingStart="5dp"
 			android:digits="1234567890."
-            android:textCursorDrawable="@drawable/edit_cursor"/>
+            android:textCursorDrawable="@drawable/edit_cursor"
+			tools:ignore="RtlSymmetry" />
 
 		<TextView
 			android:textStyle="bold"
@@ -127,6 +134,8 @@
 			android:textSize="14sp"/>
 
 		<EditText
+			android:inputType="text"
+			android:autofillHints="no"
 			android:id="@+id/id_account_add_data_edit_3"
 			android:layout_width="match_parent"
 			android:layout_height="150dp"

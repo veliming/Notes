@@ -2,6 +2,7 @@
 
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="140dp"
     android:layout_height="200dp"
     android:layout_marginTop="10dp"
@@ -21,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="8"
-            app:cardBackgroundColor="@color/color_kaixin"
+            app:cardBackgroundColor="@color/color_happy"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
             app:cardMaxElevation="0dp">
@@ -51,20 +52,21 @@
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/id_home_main_list_textView_2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/id_home_main_list_textView_1"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginEnd="5dp"
-                        android:layout_marginStart="5dp"
-                        android:ellipsize="end"
-                        android:maxLines="4"
-                        android:text="@string/long_text_test"
-                        android:textColor="@color/color_fc"
-                        android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/id_home_main_list_textView_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_home_main_list_textView_1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:text="@string/long_text_test"
+                    android:textColor="@color/color_fc"
+                    android:textSize="12sp"
+                    tools:ignore="TextContrastCheck" />
 
 
                     <LinearLayout
@@ -86,7 +88,8 @@
                             android:maxLines="1"
                             android:text="@string/main_task_1"
                             android:textColor="@color/color_fa"
-                            android:textSize="8sp" />
+                            android:textSize="8sp"
+                            tools:ignore="SmallSp,TextContrastCheck" />
 
                         <TextView
                             android:id="@+id/id_home_main_list_textView_4"
@@ -98,7 +101,8 @@
                             android:maxLines="1"
                             android:text="@string/home_main_list_1"
                             android:textColor="@color/color_fa"
-                            android:textSize="8sp" />
+                            android:textSize="8sp"
+                            tools:ignore="RtlHardcoded,SmallSp,TextContrastCheck" />
                     </LinearLayout>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -140,7 +144,8 @@
                     android:maxLines="1"
                     android:text="@string/home_main_list_2"
                     android:textColor="@color/color_8e8e8e"
-                    android:textSize="9sp" />
+                    android:textSize="9sp"
+                    tools:ignore="RtlHardcoded,SmallSp,TextContrastCheck" />
             </LinearLayout>
 
 
@@ -183,18 +188,19 @@
                     android:background="@color/color_bbbbbb" />
 
                 <TextView
-                    android:background="@drawable/bg_selector"
                     android:id="@+id/id_home_main_list_textView_7"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/bg_selector"
                     android:ellipsize="end"
                     android:gravity="center"
                     android:maxLines="1"
                     android:text="@string/home_main_list_5"
                     android:textColor="@color/color_complete"
                     android:textSize="13sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
             </LinearLayout>
 
 

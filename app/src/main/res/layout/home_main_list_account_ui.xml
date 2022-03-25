@@ -23,6 +23,7 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent">
             <ImageView
+                android:contentDescription="@string/home_account_r_Des"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/home_account_r_icon"
@@ -97,6 +98,7 @@
 
             </LinearLayout>
             <ImageView
+                android:contentDescription="@string/return_to_Des"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/return_to_icon"
@@ -118,6 +120,7 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent">
             <ImageView
+                android:contentDescription="@string/home_account_y_Des"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/home_account_y_icon"
@@ -192,6 +195,7 @@
 
             </LinearLayout>
             <ImageView
+                android:contentDescription="@string/return_to_Des"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/return_to_icon"
@@ -213,6 +217,7 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent">
             <ImageView
+                android:contentDescription="@string/home_account_n_Des"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/home_account_n_icon"
@@ -287,6 +292,7 @@
 
             </LinearLayout>
             <ImageView
+                android:contentDescription="@string/return_to_Des"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/return_to_icon"

@@ -9,7 +9,7 @@
     android:layout_marginBottom="10dp"
     app:cardCornerRadius="10dp"
     app:cardElevation="6dp"
-    app:cardBackgroundColor="@color/color_kaixin">
+    app:cardBackgroundColor="@color/color_happy">
 
     <RelativeLayout
         android:id="@+id/id_mood_item_linear_1"
@@ -54,7 +54,7 @@
                     android:text="@string/home_main_mood_2"
                     android:textColor="@color/color_fa"
                     android:textSize="12sp"
-                    android:gravity="right"/>
+                    android:gravity="end"/>
 
             </LinearLayout>
             <TextView

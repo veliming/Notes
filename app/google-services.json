@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "111488709395",
+    "project_id": "notes-c45a8",
+    "storage_bucket": "notes-c45a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111488709395:android:006e2636fbad407ae5a0e6",
+        "android_client_info": {
+          "package_name": "com.quartzer.conven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111488709395-ec1q6gdgk4h03l9p0f5o0d2396hjov1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi16tNAVVykmYghfXXXqrtvuTlx1cVfqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111488709395-ec1q6gdgk4h03l9p0f5o0d2396hjov1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

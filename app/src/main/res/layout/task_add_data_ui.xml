@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
 	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -21,6 +22,7 @@
 			android:gravity="center_vertical">
 
 			<ImageView
+				android:contentDescription="@string/add_data_Des"
 				android:src="@drawable/add_data_icon"
 				android:layout_width="32dp"
 				android:layout_height="32dp"/>
@@ -59,6 +61,8 @@
 			android:textSize="14sp"/>
 
 		<EditText
+			android:inputType="text"
+			android:autofillHints="no"
 			android:id="@+id/id_task_add_data_edit_1"
 			android:layout_width="match_parent"
 			android:layout_height="40dp"
@@ -69,8 +73,9 @@
 			android:textSize="12sp"
 			android:layout_marginTop="10dp"
 			android:maxLines="1"
-			android:paddingLeft="5dp"
-            android:textCursorDrawable="@drawable/edit_cursor"/>
+			android:paddingStart="5dp"
+            android:textCursorDrawable="@drawable/edit_cursor"
+			tools:ignore="RtlSymmetry" />
 
         
         
@@ -94,13 +99,15 @@
                 android:id="@+id/id_task_add_data_text_3"
                 android:textStyle="bold"
                 android:textColor="@color/color_8e8e8e"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"
                 android:gravity="right"
                 android:text="@string/task_choose_time_1"
-                android:textSize="12sp"/>
+                android:textSize="12sp"
+				tools:ignore="RtlHardcoded" />
             <ImageView
+				android:contentDescription="@string/return_to_Des"
                 android:src="@drawable/return_to_icon"
                 android:layout_width="25dp"
                 android:layout_height="25dp"/>
@@ -118,6 +125,8 @@
 			android:textSize="14sp"/>
 
 		<EditText
+			android:inputType="text"
+			android:autofillHints="no"
 			android:id="@+id/id_task_add_data_edit_2"
 			android:layout_width="match_parent"
 			android:layout_height="100dp"

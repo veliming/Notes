@@ -2,6 +2,7 @@
 <LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
 	android:orientation="vertical">
@@ -10,7 +11,7 @@
 		android:orientation="horizontal"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_marginLeft="10dp">
+		android:layout_marginStart="10dp">
 
 		<View
 			android:layout_width="14dp"
@@ -26,8 +27,9 @@
 			android:text="@string/task_time_1"
 			android:textColor="@color/color_515151"
 			android:textSize="9sp"
-			android:layout_marginLeft="10dp"
-			android:textStyle="bold"/>
+			android:layout_marginStart="10dp"
+			android:textStyle="bold"
+			tools:ignore="SmallSp" />
 
 		<TextView
 			android:id="@+id/id_task_item_text_2"
@@ -38,8 +40,9 @@
 			android:text="@string/task_time_2"
 			android:textColor="@color/color_515151"
 			android:textSize="9sp"
-			android:layout_marginLeft="20dp"
-			android:textStyle="bold"/>
+			android:layout_marginStart="20dp"
+			android:textStyle="bold"
+			tools:ignore="SmallSp" />
 
 	</LinearLayout>
 
@@ -47,10 +50,10 @@
 		android:orientation="horizontal"
 		android:layout_width="match_parent"
 		android:layout_height="180dp"
-		android:layout_marginLeft="10dp">
+		android:layout_marginStart="10dp">
 
 		<View
-			android:layout_marginLeft="7dp"
+			android:layout_marginStart="7dp"
 			android:layout_width="0.5dp"
 			android:layout_height="match_parent"
 			android:background="@color/colorPrimary"/>
@@ -73,7 +76,7 @@
 
 				<TextView
 					android:layout_marginTop="10dp"
-					android:layout_marginLeft="10dp"
+					android:layout_marginStart="10dp"
 					android:id="@+id/id_task_item_text_3"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
@@ -85,7 +88,7 @@
 					android:textStyle="bold"/>
 
 				<TextView
-					android:layout_marginLeft="10dp"
+					android:layout_marginStart="10dp"
 					android:id="@+id/id_task_item_text_4"
 					android:layout_width="match_parent"
 					android:layout_height="0dp"
@@ -106,6 +109,7 @@
 					android:layout_marginRight="5dp"/>
 
 				<LinearLayout
+					android:baselineAligned="false"
 					android:orientation="horizontal"
 					android:layout_width="match_parent"
 					android:layout_height="40dp"
@@ -121,6 +125,7 @@
 						android:background="@drawable/bg_selector">
 
 						<ImageView
+							android:contentDescription="@string/task_finish_Des"
 							android:src="@drawable/task_finish_icon"
 							android:layout_width="20dp"
 							android:layout_height="20dp"/>
@@ -132,7 +137,7 @@
 							android:text="@string/mood_complete"
 							android:textColor="@color/color_complete"
 							android:textSize="13sp"
-							android:layout_marginLeft="3dp"
+							android:layout_marginStart="3dp"
 							android:textStyle="bold"/>
 
 					</LinearLayout>
@@ -147,6 +152,7 @@
                         android:background="@drawable/bg_selector">
 
 						<ImageView
+							android:contentDescription="@string/task_edit_Des"
 							android:src="@drawable/task_edit_icon"
 							android:layout_width="19dp"
 							android:layout_height="19dp"/>
@@ -158,7 +164,7 @@
 							android:text="@string/task_edit"
 							android:textColor="@color/colorPrimary"
 							android:textSize="13sp"
-							android:layout_marginLeft="4dp"
+							android:layout_marginStart="4dp"
 							android:textStyle="bold"/>
 
 					</LinearLayout>
@@ -173,6 +179,7 @@
                         android:background="@drawable/bg_selector">
 
 						<ImageView
+							android:contentDescription="@string/task_delete_Des"
 							android:src="@drawable/task_delete_icon"
 							android:layout_width="19dp"
 							android:layout_height="19dp"/>
@@ -184,7 +191,7 @@
 							android:text="@string/home_main_list_4"
 							android:textColor="@color/color_delete"
 							android:textSize="13sp"
-							android:layout_marginLeft="4dp"
+							android:layout_marginStart="4dp"
 							android:textStyle="bold"/>
 
 					</LinearLayout>

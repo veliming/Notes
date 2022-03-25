@@ -1,5 +1,6 @@
 package com.pikachu.record.activity.task;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 
@@ -95,6 +96,7 @@ public class TaskActivity extends AppCompatActivity implements TaskRecyclerAdapt
     }
 
 
+    @SuppressLint("NotifyDataSetChanged")
     private void getData() {
         if (initialSql == null)
             initialSql = new InitialSql(this);

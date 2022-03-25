@@ -2,6 +2,7 @@
 
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="140dp"
     android:layout_height="200dp"
     android:layout_marginLeft="10dp"
@@ -23,6 +24,7 @@
             android:layout_weight="9">
 
             <ImageView
+                android:contentDescription="@string/id_home_main_list_diary_Des"
                 android:id="@+id/id_home_main_list_diary_image_1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -48,7 +50,8 @@
                 android:maxLines="1"
                 android:text="@string/main_task_1"
                 android:textColor="@color/color_fa"
-                android:textSize="8sp" />
+                android:textSize="8sp"
+                tools:ignore="SmallSp" />
 
         </RelativeLayout>
 
@@ -82,7 +85,8 @@
                 android:text="@string/app_name"
                 android:textColor="@color/color_8e8e8e"
                 android:textSize="8sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
 
 
         </LinearLayout>

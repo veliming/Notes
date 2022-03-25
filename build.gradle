@@ -7,14 +7,16 @@ buildscript {
         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         mavenLocal()
         mavenCentral()
+        google()  // Google's Maven repository
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.1'
+        classpath 'com.android.tools.build:gradle:7.1.2'
 
         //GreenDao 数据库框架
         classpath 'org.greenrobot:greendao-gradle-plugin:3.3.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath 'com.google.gms:google-services:4.3.10'
     }
 }
 
@@ -26,6 +28,7 @@ allprojects {
         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         mavenLocal()
         mavenCentral()
+        google()  // Google's Maven repository
     }
 }
 

@@ -22,13 +22,13 @@ public class ToolPublic {
     public static final String IMAGE_PATH="/image/";
 
     //主页统计图加载心情排名的前多少个  0<MOOD_FRONT<=16
-    public static final int MOOD_FRONT=5;
+    public static final int MOOD_FRONT=6;
         //主页 显示最近多少天数据(心情)  这里有个bug 如果记录都超过30天 就不获取了
     public static final int LATELY_DAY=30;
     //主页 任务加载几个
-    public static final int TASK_FRONT=4;
+    public static final int TASK_FRONT=6;
     //主页 笔记加载几个
-    public static final int DIARY_FRONT=4;
+    public static final int DIARY_FRONT=6;
 
 
 

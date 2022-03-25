@@ -1,5 +1,6 @@
 package com.pikachu.record.activity.home.adapter;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -88,6 +89,7 @@ public class TaskAdapter {
 
 
 
+    @SuppressLint("NotifyDataSetChanged")
     private void setRecyclerViewAdapter(){
 
         if (adapter==null){
@@ -100,33 +102,20 @@ public class TaskAdapter {
                 }
 
                 @Override
-                public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
+                public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
 
                     ItemHolder itemHolder = (ItemHolder) holder;
                     itemHolder.item.setText(tasks.get(position).getTitle());
                     itemHolder.text.setText(tasks.get(position).getText());
                     itemHolder.startTime.setText(tasks.get(position).getTime());
 
-                    itemHolder.delete.setOnClickListener(new OnClickListener(){
-
-							@Override
-							public void onClick(View v) {
-								taskActivityItemOnclick.deleteOnClick(v,position,tasks.get(position));
-							}
-						});
-					
-					
-					
-					
-					
-					
+                    itemHolder.delete.setOnClickListener(v -> taskActivityItemOnclick.deleteOnClick(v,position,tasks.get(position)));
                     itemHolder.complete.setOnClickListener(v -> taskActivityItemOnclick.completeOnClick(v,position,tasks.get(position)));
 					
 				
                     if (tasks.get(position).getIsAs()){
                         itemHolder.isAs.setText(string2);
                         itemHolder.isAs.setTextColor(color2);
-
                         itemHolder.complete.setVisibility(View.GONE);
                         itemHolder.view.setVisibility(View.GONE);
                     }else {
@@ -185,18 +174,8 @@ public class TaskAdapter {
             adapter.notifyDataSetChanged();
         }
     }
-    
-    
-    
-    
+
     public void setTaskActivityItemOnclick(TaskActivityItemOnclick taskActivityItemOnclick) {
         this.taskActivityItemOnclick = taskActivityItemOnclick;
     }
-
-    
-
-
-
-
-
 }

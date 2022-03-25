@@ -23,6 +23,7 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
+                android:contentDescription="@string/home_main_task_Des"
                 android:src="@drawable/home_main_task_icon"
                 android:layout_width="30dp"
                 android:layout_height="30dp"/>
@@ -62,11 +63,12 @@
             android:layout_marginStart="10dp"
             android:gravity="center_vertical">
             <ImageView
+                android:contentDescription="@string/home_main_account_Des"
                 android:src="@drawable/home_main_account_icon"
                 android:layout_width="30dp"
                 android:layout_height="30dp"/>
             <TextView
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:id="@+id/id_home_main_scroll_textView_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -93,6 +95,7 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
+                android:contentDescription="@string/home_main_diary_Des"
                 android:src="@drawable/home_main_diary_icon"
                 android:layout_width="30dp"
                 android:layout_height="30dp"/>

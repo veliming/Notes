@@ -36,44 +36,44 @@
 
 
     <!-- 心情颜色 -->
-    <color name="color_kaixin">#87A6CD</color>
-    <color name="color_chongshi">#CDB087</color>
-    <color name="color_jingxi">#878FCD</color>
-    <color name="color_deyi">#CD9C87</color>
-    <color name="color_nuanxin">#96CD87</color>
-    <color name="color_pingjing">#87CDCC</color>
-    <color name="color_nanguo">#87CDB7</color>
-    <color name="color_fanzao">#CDA687</color>
-    <color name="color_mimang">#87CDCB</color>
-    <color name="color_gudu">#87ABCD</color>
-    <color name="color_shengqi">#CD8787</color>
-    <color name="color_ganga">#9E87CD</color>
-    <color name="color_weiqu">#87CDA3</color>
-    <color name="color_tianmi">#CD87C1</color>
-    <color name="color_mengjing">#A587CD</color>
-    <color name="color_pibei">#CDC287</color>
-    <color name="color_taobi">#87CD87</color>
-    <color name="color_buzhidao">#CBCBCB</color>
+    <color name="color_happy">#87A6CD</color>
+    <color name="color_enrich">#CDB087</color>
+    <color name="color_surprise">#878FCD</color>
+    <color name="color_complacent">#CD9C87</color>
+    <color name="color_heartwarming">#96CD87</color>
+    <color name="color_calm">#87CDCC</color>
+    <color name="color_sad">#87CDB7</color>
+    <color name="color_agitate">#CDA687</color>
+    <color name="color_puzzle">#87CDCB</color>
+    <color name="color_lonely">#87ABCD</color>
+    <color name="color_angry">#CD8787</color>
+    <color name="color_awkward">#9E87CD</color>
+    <color name="color_grievance">#87CDA3</color>
+    <color name="color_sweet">#CD87C1</color>
+    <color name="color_dream">#A587CD</color>
+    <color name="color_tire">#CDC287</color>
+    <color name="color_escape">#87CD87</color>
+    <color name="color_unknown">#CBCBCB</color>
 
     <integer-array name="mood_color">
-        <item>@color/color_kaixin</item>
-        <item>@color/color_chongshi</item>
-        <item>@color/color_jingxi</item>
-        <item>@color/color_deyi</item>
-        <item>@color/color_nuanxin</item>
-        <item>@color/color_pingjing</item>
-        <item>@color/color_nanguo</item>
-        <item>@color/color_fanzao</item>
-        <item>@color/color_mimang</item>
-        <item>@color/color_gudu</item>
-        <item>@color/color_shengqi</item>
-        <item>@color/color_ganga</item>
-        <item>@color/color_weiqu</item>
-        <item>@color/color_tianmi</item>
-        <item>@color/color_mengjing</item>
-        <item>@color/color_pibei</item>
-        <item>@color/color_taobi</item>
-        <item>@color/color_buzhidao</item>
+        <item>@color/color_happy</item>
+        <item>@color/color_enrich</item>
+        <item>@color/color_surprise</item>
+        <item>@color/color_complacent</item>
+        <item>@color/color_heartwarming</item>
+        <item>@color/color_calm</item>
+        <item>@color/color_sad</item>
+        <item>@color/color_agitate</item>
+        <item>@color/color_puzzle</item>
+        <item>@color/color_lonely</item>
+        <item>@color/color_angry</item>
+        <item>@color/color_awkward</item>
+        <item>@color/color_grievance</item>
+        <item>@color/color_sweet</item>
+        <item>@color/color_dream</item>
+        <item>@color/color_tire</item>
+        <item>@color/color_escape</item>
+        <item>@color/color_unknown</item>
     </integer-array>
 
 

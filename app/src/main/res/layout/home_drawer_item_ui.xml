@@ -6,6 +6,7 @@
     android:id="@+id/id_home_drawer_item_linearLayout_1"
     android:background="@drawable/bg_selector">
     <ImageView
+        android:contentDescription="@string/id_home_drawer_item_account_Des"
         android:src="@drawable/home_drawer_item_account_icon"
         android:id="@+id/id_home_drawer_item_imageView_1"
         android:layout_width="60dp"
@@ -13,9 +14,9 @@
         android:padding="16dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
         android:text="@string/app_name"
         android:textColor="@color/color_515151"
         android:textSize="16sp"
@@ -24,6 +25,7 @@
         android:id="@+id/id_home_drawer_item_textView_1"/>
 
     <ImageView
+        android:contentDescription="@string/return_to_Des"
         android:src="@drawable/return_to_icon"
         android:layout_width="60dp"
         android:layout_height="match_parent"
