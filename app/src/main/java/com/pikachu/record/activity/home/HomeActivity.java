@@ -14,7 +14,6 @@ import android.widget.TextView;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.pikachu.record.R;
 import com.pikachu.record.activity.account.AccountActivity;
@@ -62,7 +61,6 @@ public class HomeActivity extends ReturnImagePath implements TaskAdapter.TaskAct
     private TextView textViewName;
     private TextView textViewAuto;
     private RecyclerView drawerRecyclerView;
-    private SwipeRefreshLayout swipeRefreshLayout;
     private AddButtonLayout addButtonLayout;
 
     //drawable
@@ -116,7 +114,6 @@ public class HomeActivity extends ReturnImagePath implements TaskAdapter.TaskAct
         textViewName = findViewById(R.id.id_home_drawer_textView_1);
         textViewAuto = findViewById(R.id.id_home_drawer_textView_2);
         drawerRecyclerView = findViewById(R.id.id_home_drawer_recyclerView_1);
-        swipeRefreshLayout = findViewById(R.id.id_home_main_swipe_1);
         addButtonLayout = findViewById(R.id.id_home_main_AddButtonLayout);
 
 
@@ -175,11 +172,6 @@ public class HomeActivity extends ReturnImagePath implements TaskAdapter.TaskAct
         accountAdapter = new AccountAdapter(this);
         diaryAdapter = new DiaryAdapter(this);
 
-        //下拉刷新
-        swipeRefreshLayout.setOnRefreshListener(() -> {
-            upDataLoadUi();
-            swipeRefreshLayout.setRefreshing(false);
-        });
         //设置task 的item 监听
         taskAdapter.setTaskActivityItemOnclick(this);
 

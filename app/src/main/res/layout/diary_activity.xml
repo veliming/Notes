@@ -11,16 +11,12 @@
         app:LeftImage="@drawable/icon_l"
         app:RightImage="@drawable/icon_r"
         app:Text="@string/app_name" />
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:id="@+id/id_diary_swipeRefresh_1"
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_diary_recycler_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/id_diary_topView_1">
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/id_diary_recycler_1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        android:layout_below="@+id/id_diary_topView_1"/>
 
     <View
         android:layout_width="match_parent"

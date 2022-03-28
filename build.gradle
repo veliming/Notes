@@ -7,7 +7,6 @@ buildscript {
         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         mavenLocal()
         mavenCentral()
-        google()  // Google's Maven repository
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.1.2'
@@ -28,7 +27,6 @@ allprojects {
         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         mavenLocal()
         mavenCentral()
-        google()  // Google's Maven repository
     }
 }
 

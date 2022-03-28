@@ -7,7 +7,6 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.pikachu.record.R;
 import com.pikachu.record.activity.dialog.PDialog;
@@ -30,8 +29,6 @@ public class TaskActivity extends AppCompatActivity implements TaskRecyclerAdapt
 
     private RecyclerView recyclerView;
     private TopView topView;
-    private SwipeRefreshLayout swipe;
-
     private String task_1;
 
 
@@ -61,8 +58,6 @@ public class TaskActivity extends AppCompatActivity implements TaskRecyclerAdapt
 
         recyclerView = findViewById(R.id.id_task_recycler_1);
         topView = findViewById(R.id.id_task_topView_1);
-        swipe = findViewById(R.id.id_task_swipeRefresh_1);
-
         task_1 = getResources().getString(R.string.task_activity_1);
 
     }
@@ -76,14 +71,6 @@ public class TaskActivity extends AppCompatActivity implements TaskRecyclerAdapt
         recyclerView.setAdapter(taskRecyclerAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         taskRecyclerAdapter.setItemOnClick(this);
-
-
-        //刷新
-        swipe.setOnRefreshListener(() -> {
-            getData();
-            swipe.setRefreshing(false);
-        });
-
 
         //初始addDialog
         taskAddDialogAdapter = new TaskAddDialogAdapter(this);

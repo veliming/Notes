@@ -1,12 +1,12 @@
 package com.pikachu.record.activity.account;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.pikachu.record.R;
 import com.pikachu.record.activity.dialog.PDialog;
@@ -29,8 +29,6 @@ public class AccountActivity extends AppCompatActivity implements  AccountRecycl
 
     private RecyclerView recyclerView;
     private TopView topView;
-    private SwipeRefreshLayout swipe;
-
     private String account_1;
 
 
@@ -60,8 +58,6 @@ public class AccountActivity extends AppCompatActivity implements  AccountRecycl
 		
 		recyclerView=findViewById(R.id.id_account_recycler_1);
 		topView=findViewById(R.id.id_account_topView_1);
-		swipe=findViewById(R.id.id_account_swipeRefresh_1);
-		
 		account_1=getResources().getString(R.string.home_account);
 		
 	}
@@ -77,17 +73,9 @@ public class AccountActivity extends AppCompatActivity implements  AccountRecycl
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         accountRecyclerAdapter.setItemOnClick(this);
 
-
-        //刷新
-        swipe.setOnRefreshListener(() -> {
-            getData();
-            swipe.setRefreshing(false);
-        });
-		
-		
 		//初始addDialog
         accountAddDialogAdapter = new AccountAddDialogAdapter(this);
-        accountAddDialogAdapter.setEndAdd(() -> getData());
+        accountAddDialogAdapter.setEndAdd(this::getData);
 
 
         //TopView添加 按键点击事件
@@ -96,6 +84,7 @@ public class AccountActivity extends AppCompatActivity implements  AccountRecycl
     }
 
 
+    @SuppressLint("NotifyDataSetChanged")
     private void getData(){
         if(initialSql==null)
             initialSql = new InitialSql(this);

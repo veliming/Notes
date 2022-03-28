@@ -12,20 +12,14 @@
         app:LeftImage="@drawable/sideslip_icon"
         app:RightImage="@drawable/recoil_icon"
         app:Text="@string/app_name" />
-
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    <ScrollView
         android:id="@+id/id_home_main_swipe_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/id_home_main_topView_1">
+        <include layout="@layout/home_main_scroll_ui" />
+    </ScrollView>
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <include layout="@layout/home_main_scroll_ui" />
-        </ScrollView>
-    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 
     <View

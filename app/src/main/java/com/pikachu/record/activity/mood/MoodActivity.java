@@ -6,7 +6,6 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.pikachu.record.R;
 import com.pikachu.record.activity.dialog.PDialog;
@@ -29,7 +28,6 @@ public class MoodActivity extends AppCompatActivity implements MoodRecyclerAdapt
 
     private RecyclerView recyclerView;
     private TopView topView;
-    private SwipeRefreshLayout swipe;
 
     private String mood_1;
 
@@ -61,8 +59,6 @@ public class MoodActivity extends AppCompatActivity implements MoodRecyclerAdapt
 
         recyclerView = findViewById(R.id.id_mood_recycler_1);
         topView = findViewById(R.id.id_mood_topView_1);
-        swipe = findViewById(R.id.id_mood_swipeRefresh_1);
-
         mood_1 = getResources().getString(R.string.mood_activity_1);
 
     }
@@ -95,14 +91,6 @@ public class MoodActivity extends AppCompatActivity implements MoodRecyclerAdapt
         recyclerView.setAdapter(moodRecyclerAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         moodRecyclerAdapter.setItemOnClick(this);
-
-
-        //刷新
-        swipe.setOnRefreshListener(() -> {
-            getData();
-            swipe.setRefreshing(false);
-        });
-
 
         //初始addDialog
         moodAddDialogAdapter = new MoodAddDialogAdapter(this, ToolPublic.MOOD_STR_TO_COLOR);
