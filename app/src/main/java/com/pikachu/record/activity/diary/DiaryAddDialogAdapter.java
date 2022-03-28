@@ -182,7 +182,7 @@ public class DiaryAddDialogAdapter {
         } else {
             initialSql.setOneDiaryData(new Diary(null, title, text, "", path == null || path.equals("") ? "" : path, ToolTime.getItem(ToolPublic.TIME_DATA)));
         }
-        ToolOther.tw(activity, finishStr, R.drawable.toast_true_icon);
+        ToolOther.tw(activity, finishStr);
         cancelDialog();
         //发布事件后进行主页更新
         EventBus.getDefault().post(new DataSynEvent());

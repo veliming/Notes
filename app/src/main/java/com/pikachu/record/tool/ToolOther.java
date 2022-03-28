@@ -61,52 +61,17 @@ public class ToolOther {
      * @param img      图片资源id
      */
     public static Toast tw;
-    public static void tw(Activity activity, String msg, @DrawableRes int img){
+    public static void tw(Activity activity, String msg){
             if (tw!=null) {
                 tw.cancel();
                 tw=null;
             }
             tw = new Toast(activity);
             tw.setDuration(Toast.LENGTH_LONG);
-            tw.setGravity(Gravity.CENTER, 0, 0);//居中
-
-            LinearLayout linearLayout = new LinearLayout(activity);
-            linearLayout.setOrientation(LinearLayout.VERTICAL);
-            linearLayout.setBackground(activity.getResources().getDrawable(R.drawable.toast_bg));
-            linearLayout.setPadding(dp2px(60,activity),dp2px(20,activity),dp2px(60,activity),dp2px(20,activity));
-            linearLayout.setGravity(Gravity.CENTER);
-            LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-            linearLayout.setLayoutParams(layoutParams);
-
-
-            ImageView imageView = new ImageView(activity);
-            imageView.setImageResource(img);
-            layoutParams = new LinearLayout.LayoutParams(dp2px(40,activity), dp2px(40,activity));
-            layoutParams.bottomMargin=dp2px(10,activity);
-            imageView.setLayoutParams(layoutParams);
-
-            TextView textView = new TextView(activity);
-            textView.setText(msg);
-            textView.setTextColor(0xFFFFFFFF);
-            textView.setTextSize(15);
-            textView.setTypeface(Typeface.defaultFromStyle(Typeface.BOLD));
-            layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-            textView.setLayoutParams(layoutParams);
-
-            linearLayout.addView(imageView);
-            linearLayout.addView(textView);
-
-            tw.setView(linearLayout);
+            tw.setText(msg);
             tw.show();
 
     }
-
-
-
-
-
-
-
 
     /**
      * 文件读取   % 读取sd卡文件    $ 读取app内部文件  @ 读取资源文件(只支持assets)

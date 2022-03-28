@@ -12,6 +12,10 @@ import com.pikachu.record.sql.data.InitialSql;
 import com.pikachu.record.tool.ToolPublic;
 import com.pikachu.record.tool.ToolState;
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 //import android.support.multidex.MultiDex;
 
 
@@ -40,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         ToolState.setFullScreen(this, true, true);//全屏
         setContentView(R.layout.main_activity);
 
+        AppCenter.start(getApplication(), "158983b3-3119-4c06-95e2-66372b400582", Analytics.class, Crashes.class);
         initApp();
 
         new Handler().postDelayed(new Runnable(){

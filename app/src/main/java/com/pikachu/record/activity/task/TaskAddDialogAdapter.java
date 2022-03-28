@@ -186,7 +186,7 @@ public class TaskAddDialogAdapter {
         }
 
 
-        ToolOther.tw(activity, finishStr, R.drawable.toast_true_icon);
+        ToolOther.tw(activity, finishStr);
         cancelDialog();
         //发布事件
         EventBus.getDefault().post(new DataSynEvent());
@@ -196,8 +196,6 @@ public class TaskAddDialogAdapter {
 
     //添加 定时
     public void addAlarm(String stopTime, Task task) {
-
-
 //        
 //        AlarmManagerTask.cancelAlarmBroadcast(context, task.getId(),
 //                                              AlarmReceiver.class);    

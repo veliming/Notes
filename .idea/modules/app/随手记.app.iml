@@ -69,6 +69,9 @@
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.11.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.microsoft.appcenter:appcenter-analytics:4.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.microsoft.appcenter:appcenter-crashes:4.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.microsoft.appcenter:appcenter:4.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.material:material:1.4.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:2.0.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.4.1@aar" level="project" />

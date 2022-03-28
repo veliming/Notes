@@ -206,7 +206,7 @@ public class HomeActivity extends ReturnImagePath implements TaskAdapter.TaskAct
 
             if (position == 0) {
                 //我都小窝
-                ToolOther.tw(HomeActivity.this, listData.title, R.drawable.toast_true_icon);
+                ToolOther.tw(HomeActivity.this, listData.title);
             } else if (position == 1) {
                 //心情
                 startActivity(new Intent(HomeActivity.this, MoodActivity.class));
@@ -225,7 +225,7 @@ public class HomeActivity extends ReturnImagePath implements TaskAdapter.TaskAct
 
             } else if (position == 5) {
                 //设置
-                ToolOther.tw(HomeActivity.this, listData.title, R.drawable.toast_true_icon);
+                ToolOther.tw(HomeActivity.this, listData.title);
             }
         });
     }

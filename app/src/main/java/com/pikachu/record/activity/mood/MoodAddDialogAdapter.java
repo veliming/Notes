@@ -229,7 +229,7 @@ public class MoodAddDialogAdapter {
         }else{
             initialSql.setOneMoodData(new Mood(null,tPos,msg,ToolTime.getItem(ToolPublic.TIME_DATA)));
         }
-        ToolOther.tw(activity,finishStr,R.drawable.toast_true_icon);
+        ToolOther.tw(activity,finishStr);
         cancelDialog();
         //发布事件
         EventBus.getDefault().post(new DataSynEvent());

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.appcenter:appcenter-analytics:4.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/64a850513f8c17cf678c913e94eb7663/transformed/jetified-appcenter-analytics-4.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/64a850513f8c17cf678c913e94eb7663/transformed/jetified-appcenter-analytics-4.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/64a850513f8c17cf678c913e94eb7663/transformed/jetified-appcenter-analytics-4.3.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/appcenter-analytics/4.3.1/1282e6049e294b4922d0cff5366b261c1855c3e0/appcenter-analytics-4.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/appcenter-analytics/4.3.1/bd8a1b6ac28f4341993afbdb215308a088d67ff0/appcenter-analytics-4.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

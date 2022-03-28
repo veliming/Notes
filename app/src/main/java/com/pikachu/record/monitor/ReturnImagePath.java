@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -37,12 +38,13 @@ public abstract class ReturnImagePath extends AppCompatActivity {
     //权限申请结果回调
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == RC_CHOOSE_PHOTO) {
 
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 apply(this);
             } else {
-                ToolOther.tw(this, "权限被拒绝", R.drawable.toast_false_icon);
+                Toast.makeText(this, "权限被拒绝", Toast.LENGTH_SHORT).show();
             }
         }
 
