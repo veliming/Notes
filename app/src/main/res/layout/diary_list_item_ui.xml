@@ -47,7 +47,6 @@
 				android:ellipsize="end"
 				android:gravity="center_vertical"
 				android:maxLines="1"
-				android:text="@string/main_task_1"
 				android:textColor="@color/color_fa"
 				android:textSize="8sp"
 				tools:ignore="SmallSp" />

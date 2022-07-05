@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5341c67bc8a9ce1fcbe217f19a21d8be/transformed/jetified-Android-PickerView-4.1.9/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5341c67bc8a9ce1fcbe217f19a21d8be/transformed/jetified-Android-PickerView-4.1.9/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5341c67bc8a9ce1fcbe217f19a21d8be/transformed/jetified-Android-PickerView-4.1.9/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/57149ed66d0c6daf6cb0ed846f8d7059/transformed/jetified-Android-PickerView-4.1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/57149ed66d0c6daf6cb0ed846f8d7059/transformed/jetified-Android-PickerView-4.1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/57149ed66d0c6daf6cb0ed846f8d7059/transformed/jetified-Android-PickerView-4.1.9/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.contrarywind/Android-PickerView/4.1.9/de96a76ec9af0cd2809e0f3313c4597f65eb5da8/Android-PickerView-4.1.9-javadoc.jar!/" />

@@ -67,7 +67,6 @@ public class HomeActivity extends ReturnImagePath implements TaskAdapter.TaskAct
     private Drawable bg;
 
     //string
-    private String str;
     private String strMy;
     private String strMood;
     private String strTask;
@@ -118,8 +117,6 @@ public class HomeActivity extends ReturnImagePath implements TaskAdapter.TaskAct
 
 
         bg = getResources().getDrawable(R.drawable.home_drawer_my_bg);
-
-        str = getResources().getString(R.string.long_text_test);
         strMy = getResources().getString(R.string.home_drawer_my);
         strMood = getResources().getString(R.string.home_drawer_mood);
         strTask = getResources().getString(R.string.home_drawer_task);

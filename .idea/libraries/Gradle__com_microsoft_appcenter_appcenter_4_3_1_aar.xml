@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.microsoft.appcenter:appcenter:4.3.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/93cbc9383981cb8deed42db8b358e11a/transformed/jetified-appcenter-4.3.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/93cbc9383981cb8deed42db8b358e11a/transformed/jetified-appcenter-4.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/93cbc9383981cb8deed42db8b358e11a/transformed/jetified-appcenter-4.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0dd25cbf0db4f9dd173bc79c5986f294/transformed/jetified-appcenter-4.3.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0dd25cbf0db4f9dd173bc79c5986f294/transformed/jetified-appcenter-4.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0dd25cbf0db4f9dd173bc79c5986f294/transformed/jetified-appcenter-4.3.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/appcenter/4.3.1/408786e1e49d14bbb35594de73b58dbfc1180cc1/appcenter-4.3.1-javadoc.jar!/" />

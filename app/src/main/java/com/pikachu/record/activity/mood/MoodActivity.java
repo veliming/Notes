@@ -78,8 +78,6 @@ public class MoodActivity extends AppCompatActivity implements MoodRecyclerAdapt
 
 
         }
-
-
     }
 
 

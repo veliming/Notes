@@ -94,9 +94,9 @@
     <string name="task_time_1">今天 16:22:08 创建</string>
     <string name="task_time_2">今天 18:22:23 提醒</string>
     <string name="task_edit">编辑</string>
-    <string name="task_choose_time">选着提醒时间：</string>
-    <string name="task_choose_time_1">未选着</string>
-    <string name="task_choose_time_2">选着时间</string>
+    <string name="task_choose_time">选择提醒时间：</string>
+    <string name="task_choose_time_1">未选择</string>
+    <string name="task_choose_time_2">选择时间</string>
 
 
     <!--    content Description  -->
@@ -171,50 +171,29 @@
 
     <!--初始值-->
     <string-array name="main_mood_str">
-        <item>虽然明天有无限个可能，但今天的夕阳也不容错过</item>
-        <item>你的每天都不容过</item>
         <item>色彩源于生活</item>
-        <item>您是否还记得，前天的心情</item>
     </string-array>
 
     <string-array name="main_task_str">
-        <item>下午开始学习</item>
-        <item>荒废了一个月的java课程得拿出来看看了</item>
         <item>明天下午拿快递</item>
         <item>放了几天的快递明天可不能忘了</item>
-        <item>球赛</item>
-        <item>晚上的球赛可不能忘了，要看就看直播</item>
     </string-array>
     <string name="main_task_1">2020/06/07 17:21:00</string>
 
     <string-array name="main_account_str">
         <item>买菜</item>
         <item>下午买了一条鱼，准备试试红烧鱼</item>
-        <item>上网</item>
-        <item>又玩了一下午，就快上钻石了，不亏不亏</item>
-        <item>买了张火车票</item>
-        <item>过几天就出去打工咯，开始大多数的命运</item>
     </string-array>
 
     <string-array name="main_diary_str">
-        <item>Java笔记</item>
-        <item>public class HelloWorld {\n    /* 第一个Java程序\n     * 它将打印字符串 Hello World\n     */\n    public static void main(String []args) {\n        System.out.println("Hello World"); // 打印 Hello World\n    }\n}</item>
-        <item>JavaScript笔记</item>
-        <item>alert("我的第一个 JavaScript");\nalert("我的第二个 JavaScript");</item>
         <item>爬山</item>
         <item>屋里待的太久了，偶然出浪浪，整整野炊美滋滋 ^_^</item>
     </string-array>
 
 
-
-
-
-
-
-
     <string name="toast_main_1">随手记</string>
-    <string name="long_text_test">TopViewTopViewTopViewTopViewTopViewTopViewTopViewTopViewTopViewTopViewTopViewTopViewTopViewTopViewTopView</string>
-    <string name="emil_text_test">pikachu@pikachu.like</string>
+    <string name="long_text_test">TopViewTopViewTopViewTopViewTopView</string>
+    <string name="emil_text_test">随手记</string>
 
 
 </resources>

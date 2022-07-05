@@ -9,7 +9,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.android.tools.build:gradle:7.2.1'
 
         //GreenDao 数据库框架
         classpath 'org.greenrobot:greendao-gradle-plugin:3.3.0'

@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/drawable/toast_bg.xml" value="0.208" />
         <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/diary_activity.xml" value="0.23867753623188406" />
+        <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/diary_add_data_ui.xml" value="0.3619791666666667" />
+        <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/diary_list_item_ui.xml" value="0.25" />
         <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/home_drawer_item_ui.xml" value="0.17603850050658562" />
         <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/home_drawer_ui.xml" value="0.3619791666666667" />
         <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/home_main_list_diary_ui.xml" value="0.23867753623188406" />
+        <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/home_main_list_task_ui.xml" value="0.17603850050658562" />
         <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/home_main_scroll_ui.xml" value="0.3619791666666667" />
         <entry key="..\:/APP/AndroidStudioProjects/Notes/app/src/main/res/layout/task_activity.xml" value="0.23867753623188406" />
       </map>

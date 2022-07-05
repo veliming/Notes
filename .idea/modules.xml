@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/随手记.iml" filepath="$PROJECT_DIR$/.idea/modules/随手记.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/随手记.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/随手记.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/随手记.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/随手记.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/随手记.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/随手记.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/随手记.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/随手记.app.unitTest.iml" />
     </modules>
   </component>
 </project>

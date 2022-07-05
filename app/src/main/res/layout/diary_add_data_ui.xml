@@ -114,13 +114,13 @@
 		</RelativeLayout>
 
 		<TextView
-			android:textStyle="bold"
-			android:textColor="@color/color_515151"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="@string/mood_mood_list_1"
 			android:layout_marginTop="20dp"
-			android:textSize="14sp"/>
+			android:text="@string/diary_text"
+			android:textColor="@color/color_515151"
+			android:textSize="14sp"
+			android:textStyle="bold" />
 
 		<EditText
 			android:inputType="text"
