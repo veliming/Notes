@@ -156,8 +156,6 @@ public class HomeActivity extends ReturnImagePath implements TaskAdapter.TaskAct
                 accountAddDialogAdapter.showDialog(true, true);
             }
 
-            //String text = ((AddButtonView) view).getText();
-            //ToolOther.tw(HomeActivity.this, text, R.drawable.toast_true_icon);
         });
 
 

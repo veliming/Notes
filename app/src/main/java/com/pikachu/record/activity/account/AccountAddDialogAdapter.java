@@ -44,7 +44,7 @@ public class AccountAddDialogAdapter {
     private TextView titleTextView, finishTextView, sTextView, zTextView;
     private EditText titleEditView, zsEditView, msgEditView;
     private String upStr, addStr, finishStr, initStr_1, initStr_2;
-    private boolean budget;
+    private boolean budget=true;
     private int zColor, sColor, fff, bar;
     private DecimalFormat df;
     private GradientDrawable[] dra;
