@@ -44,9 +44,9 @@
             app:cardElevation="6dp">
 
             <ImageView
-                android:contentDescription="@string/add_Des"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/add_Des"
                 android:src="@drawable/add_icon" />
         </androidx.cardview.widget.CardView>
 
@@ -59,6 +59,7 @@
             app:src="@drawable/home_mood_icon"
             app:text="@string/home_mood"
             app:text_image_margin="5dp"
+            app:text_color="@color/color_8e8e8e"
             app:text_size="4.5sp" />
 
 
@@ -70,6 +71,7 @@
             app:src="@drawable/home_task_icon"
             app:text="@string/home_task"
             app:text_image_margin="5dp"
+            app:text_color="@color/color_8e8e8e"
             app:text_size="4.5sp" />
 
         <com.pikachu.record.view.add.AddButtonView
@@ -80,6 +82,7 @@
             app:src="@drawable/home_diary_icon"
             app:text="@string/home_diary"
             app:text_image_margin="5dp"
+            app:text_color="@color/color_8e8e8e"
             app:text_size="4.5sp" />
 
         <com.pikachu.record.view.add.AddButtonView
@@ -90,6 +93,7 @@
             app:src="@drawable/home_account_icon"
             app:text="@string/home_account"
             app:text_image_margin="5dp"
+            app:text_color="@color/color_8e8e8e"
             app:text_size="4.5sp" />
 
 
